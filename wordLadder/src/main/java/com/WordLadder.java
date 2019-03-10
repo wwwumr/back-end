@@ -6,7 +6,7 @@ import java.util.*;
 public class WordLadder {
 
     //the path of dictionary
-    private static final String dictPath = "./dictionary.txt";
+    public static String dictPath = "./dictionary.txt";
 
     //get start word and end word
     public static String[] getWords(){

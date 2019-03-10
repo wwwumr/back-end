@@ -17,9 +17,14 @@ public class WordLadderTest {
                 .addClass(WordLadder.class)
                 .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
     }
-
-    public static void testPrintWord(){
-        System.out.println("test");
+    @DisplayName("test getWordList()")
+    void testWordList(){
+        WordLadder wordLadder = new WordLadder();
+        HashMap<String> set = wordLadder.getWordList();
+        assertEquals(set.contains("cat"),true);
+        assertEquals(set.contains("dog"),true);
+        assertEquals(set.contains("map"),true);
+        assertEquals(set.contains("set"),true);
     }
 
 }
