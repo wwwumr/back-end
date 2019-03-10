@@ -74,8 +74,8 @@ public class WordLadder {
         ArrayList<String> wordChain = new ArrayList<>();
         HashSet<String> usedWords = new HashSet<>();
 
-        String start = new String(words[0]);
-        String end = new String(words[1]);
+        String start = words[0];
+        String end = words[1];
 
         if(start.length()!=end.length() || !wordList.contains(start) || !wordList.contains(end)){
             return words;
@@ -95,7 +95,7 @@ public class WordLadder {
 
             for(int i = 0;i<str.length();i++){
                 for( char j='a';j<='z';j++){
-                    String tempStr = new String(str.substring(0,i)+j+str.substring(i+1));
+                    String tempStr = str.substring(0,i)+j+str.substring(i+1);
                     if(wordList.contains(tempStr) && !tempStr.equals(str) ){
                         neighbors.add(tempStr);
                     }
