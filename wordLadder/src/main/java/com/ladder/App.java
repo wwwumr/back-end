@@ -1,12 +1,18 @@
+package com.ladder;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-public class WordLadder {
-
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
     //the path of dictionary
-    public static String dictPath = "./dictionary.txt";
+    public static String dictPath;
 
     //get start word and end word
     public static String[] getWords(){
@@ -14,6 +20,8 @@ public class WordLadder {
 
         System.out.println("This is wordLadder, please input your words.");
         System.out.println("--------------------------------------------");
+        System.out.print("file path:");
+        dictPath = new String(sc.nextLine());
         System.out.print("start word:");
         String word1 = new String(sc.nextLine());
         System.out.print("end word:");
@@ -44,7 +52,7 @@ public class WordLadder {
 
     //create wordList
     private static HashSet<String> getWordList(){
-        HashSet<String> set = new HashSet<>();
+        HashSet<String> set = new HashSet<String>();
         try{
             FileReader fin = new FileReader(dictPath);
             BufferedReader br = new BufferedReader(fin);
@@ -70,9 +78,9 @@ public class WordLadder {
     private static String[] searchWord(String[] words,HashSet<String> wordList){
 
         
-        ArrayList<ArrayList<String>> dfsQueue = new ArrayList<>();
-        ArrayList<String> wordChain = new ArrayList<>();
-        HashSet<String> usedWords = new HashSet<>();
+        ArrayList<ArrayList<String>> dfsQueue = new ArrayList<ArrayList<String>>();
+        ArrayList<String> wordChain = new ArrayList<String>();
+        HashSet<String> usedWords = new HashSet<String>();
 
         String start = words[0];
         String end = words[1];
@@ -89,7 +97,7 @@ public class WordLadder {
             ArrayList<String> tempChain = dfsQueue.get(0); 
             dfsQueue.remove(0);
 
-            ArrayList<String> neighbors = new ArrayList<>();  
+            ArrayList<String> neighbors = new ArrayList<String>();  
 
             String str = tempChain.get(tempChain.size()-1);
 
@@ -112,7 +120,7 @@ public class WordLadder {
                     tempChain.add(s);
                     return tempChain.toArray(new String[tempChain.size()]);
                 }else{
-                    ArrayList<String> cpy = new ArrayList<>(tempChain);
+                    ArrayList<String> cpy = new ArrayList<String>(tempChain);
                     cpy.add(s);
                     dfsQueue.add(cpy);
                 }
