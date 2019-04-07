@@ -16,7 +16,7 @@ public class WordLadder {
     public static String dictPath;
 
     //create wordList
-    private  HashSet<String> getWordList(){
+    public  HashSet<String> getWordList(){
         dictPath = "src/main/resources/static/dictionary.txt";
         HashSet<String> set = new HashSet<>();
         try{
@@ -41,7 +41,7 @@ public class WordLadder {
     }
 
     //dfs search
-    private  String[] searchWord(String[] words,HashSet<String> wordList){
+    public  String[] searchWord(String[] words,HashSet<String> wordList){
 
 
         ArrayList<ArrayList<String>> dfsQueue = new ArrayList<>();

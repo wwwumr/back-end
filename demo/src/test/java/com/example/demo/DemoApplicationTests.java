@@ -1,46 +1,49 @@
 package com.example.demo;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
+import static org.junit.Assert.assertEquals;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.web.client.TestRestTemplate;
-import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.net.URL;
+import java.util.HashSet;
+
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class DemoApplicationTests {
 
 
-    @LocalServerPort
-    private int port;
-
-    private URL base;
-
-    @Autowired
-    private TestRestTemplate restTemplate;
-
     @Before
-    public void setUp() throws Exception {
-        String url = String.format("http://localhost:%d/", port);
-        System.out.println(String.format("port is : [%d]", port));
-        this.base = new URL(url);
+    public void beforeMethod() {
+        System.out.println("--------------------------------------");
+        System.out.println("              junit test              ");
+        System.out.println("--------------------------------------");
+        System.out.println("junit demo success  --> beforeMethod !");
     }
 
-    /**
-     * 向"/test"地址发送请求，并打印返回结果
-     * @throws Exception
-     */
-    @Test
-    public void test1() throws Exception {
 
-        ResponseEntity<String> response = this.restTemplate.getForEntity(
-                this.base.toString() + "/test", String.class, "");
-        System.out.println(String.format("测试结果为：%s", response.getBody()));
+    @Test
+    public void test() throws Exception {
+        WordLadder ladder = new WordLadder();
+        HashSet<String> dict = ladder.getWordList();
+        String[] words=new String[]{"cat","dog"};
+        String[] chain = new String[]{"cat","cot","dot","dog"};
+        System.out.print("the expected length is equal to actual:");
+        assertEquals(chain.length,ladder.searchWord(words,dict).length);
+        System.out.println("testing");
+    }
+
+
+
+    @After
+    public void afterMethod() {
+        System.out.println("junit demo success  --> afterMethod !");
+        System.out.println("--------------------------------------");
+        System.out.println("              test   over             ");
+        System.out.println("--------------------------------------");
     }
 }
