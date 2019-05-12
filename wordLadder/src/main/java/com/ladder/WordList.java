@@ -1,52 +1,43 @@
-package com.example.demo;
-
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+package com.ladder;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
-@RestController
-public class WordLadder {
-    //the path of dictionary
-    public static String dictPath;
+public class WordList {
+    private String dictPath;
+    private Set<String> wordList;
 
-    //create wordList
-    public  HashSet<String> getWordList(){
-        dictPath = "src/main/resources/static/dictionary.txt";
-        HashSet<String> set = new HashSet<>();
+    public WordList(){
+        dictPath = "./src/main/resources/dictionary.txt";
+        HashSet<String> set = new HashSet<String>();
         try{
             FileReader fin = new FileReader(dictPath);
             BufferedReader br = new BufferedReader(fin);
 
             String str;
 
-
             while ((str = br.readLine()) != null) {
-
                 set.add(str);
             }
 
             br.close();
             fin.close();
-            return set;
+            wordList = set;
         }catch(IOException e){
             e.printStackTrace();
-            return null;
         }
     }
 
     //dfs search
-    public  String[] searchWord(String[] words,HashSet<String> wordList){
+    public String[] searchWord(String[] words){
 
-
-        ArrayList<ArrayList<String>> dfsQueue = new ArrayList<>();
-        ArrayList<String> wordChain = new ArrayList<>();
-        HashSet<String> usedWords = new HashSet<>();
+        ArrayList<ArrayList<String>> dfsQueue = new ArrayList<ArrayList<String>>();
+        ArrayList<String> wordChain = new ArrayList<String>();
+        HashSet<String> usedWords = new HashSet<String>();
 
         String start = words[0];
         String end = words[1];
@@ -92,16 +83,6 @@ public class WordLadder {
                 }
             }
         }
-
         return words;
-
     }
-
-    @RequestMapping(value = "/wordLadder" , method = RequestMethod.GET)
-    public  String[] result(@RequestParam("start") String start,@RequestParam("end") String end){
-        String[] words = new String[]{start,end};
-        HashSet<String> wordList = getWordList();
-        return searchWord(words,wordList);
-    }
-
 }
