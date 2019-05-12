@@ -1,7 +1,0 @@
-target/
-
-classes
-maven-archiver
-maven-status
-surefire-reports
-test-classes
