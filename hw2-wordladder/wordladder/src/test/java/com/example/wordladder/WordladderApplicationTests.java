@@ -11,6 +11,7 @@ public class WordladderApplicationTests {
 
     @Test
     public void contextLoads() {
+
     }
 
 }
