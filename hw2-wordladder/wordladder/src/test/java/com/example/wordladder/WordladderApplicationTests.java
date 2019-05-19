@@ -11,7 +11,7 @@ public class WordladderApplicationTests {
 
     @Test
     public void contextLoads() {
-        System.out.println("ok");
+        
     }
 
 }
