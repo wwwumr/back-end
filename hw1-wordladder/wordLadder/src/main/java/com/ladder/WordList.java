@@ -43,7 +43,7 @@ public class WordList {
         String end = words[1];
 
         if(start.length()!=end.length() || !wordList.contains(start) || !wordList.contains(end)){
-            return words;
+            return null;
         }
 
         wordChain.add(start);
