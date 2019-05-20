@@ -7,7 +7,7 @@
 
 项目共两个类，其中DemoApplication类是spring入口类，WordLadder类为应用类。
 
-localhost:8080/wordLadder?start={startWord}&end={endWord}可以用来获得相应的wordChain
+localhost:8081/wordLadder?start={startWord}&end={endWord}可以用来获得相应的wordChain
 
 采用actuator自定义端点author查看作者
 
