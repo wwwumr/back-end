@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9381d92-6dd6-4f52-a895-90ee62660dbe" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ladder/WordLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ladder/WordLadderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ladder/WordListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ladder/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ladder/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ladder/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ladder/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ladder/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ladder/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ladder/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ladder/AppTest.class" afterDir="false" />
+>>>>>>> fix bug
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,10 +26,85 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
+<<<<<<< HEAD
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ladder/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ladder/WordList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1565">
+              <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#WordList#0;class#WordList#0" />
+                <element signature="e#132#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ladder/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#133#134#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ladder/WordLadderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ladder/WordListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ladder/WordLadder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+              <folding>
+                <element signature="method#getWords#0;class#WordLadder#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> fix bug
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,19 +114,31 @@
     </option>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+=======
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+>>>>>>> fix bug
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/ladder/WordLadder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ladder/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ladder/WordListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ladder/WordList.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/com/ladder/WordList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ladder/WordLadder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ladder/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ladder/WordListTest.java" />
+>>>>>>> fix bug
         <option value="$PROJECT_DIR$/src/test/java/com/ladder/AppTest.java" />
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -48,6 +146,8 @@
       </MavenImportingSettings>
     </option>
   </component>
+=======
+>>>>>>> fix bug
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -60,7 +160,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> fix bug
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,10 +171,64 @@
               <item name="wordLadder" type="b2602c69:ProjectViewProjectNode" />
               <item name="wordLadder" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="wordLadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordLadder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordLadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordLadder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordLadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordLadder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordLadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordLadder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ladder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordLadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordLadder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordLadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordLadder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordLadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordLadder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ladder" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> fix bug
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> fix bug
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -80,7 +237,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hw2-wordladder/wordladder" />
+=======
+>>>>>>> fix bug
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -100,7 +260,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.AppTest (1)">
+=======
+  <component name="RunManager" selected="JUnit.AppTest">
+>>>>>>> fix bug
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ladder.App" />
       <module name="wordladder" />
@@ -114,6 +278,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="AppTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordLadder" />
       <extension name="coverage">
@@ -129,6 +294,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+>>>>>>> fix bug
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordladder" />
       <extension name="coverage">
@@ -146,9 +313,14 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.AppTest (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest" />
+=======
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="Application.App" />
+>>>>>>> fix bug
       </list>
     </recent_temporary>
   </component>
@@ -163,11 +335,26 @@
       <option name="presentableId" value="Default" />
       <updated>1557664179043</updated>
       <workItem from="1557664183329" duration="5723000" />
+<<<<<<< HEAD
       <workItem from="1557726388901" duration="710000" />
+=======
+>>>>>>> fix bug
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
+=======
+    <history-entry file="AppTest - 2019.05.12 at 21h 15m 04s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.05.12 at 21h 15m 32s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.05.12 at 21h 15m 39s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+>>>>>>> fix bug
     <history-entry file="AppTest - 2019.05.12 at 21h 16m 12s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -189,6 +376,7 @@
     <history-entry file="AppTest - 2019.05.12 at 21h 58m 43s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+<<<<<<< HEAD
     <history-entry file="AppTest_(1) - 2019.05.13 at 13h 50m 51s.xml">
       <configuration name="AppTest (1)" configurationId="JUnit" />
     </history-entry>
@@ -204,13 +392,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+=======
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5723000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+>>>>>>> fix bug
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25340393" />
+=======
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
+>>>>>>> fix bug
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -219,7 +420,11 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="7" weight="0.34641638" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.31740615" />
+>>>>>>> fix bug
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32935154" />
@@ -250,6 +455,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ladder/WordLadderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -261,12 +467,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="45" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ladder/WordList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1565">
+          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#WordList#0;class#WordList#0" />
+            <element signature="e#132#140#0" expanded="true" />
+          </folding>
+>>>>>>> fix bug
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ladder/WordLadder.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-28">
+=======
+        <state relative-caret-position="134">
+>>>>>>> fix bug
           <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding>
             <element signature="method#getWords#0;class#WordLadder#0" />
@@ -274,6 +495,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ladder/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -296,6 +518,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ladder/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ladder/WordLadderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ladder/WordListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ladder/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+>>>>>>> fix bug
         </state>
       </provider>
     </entry>
@@ -349,7 +602,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>wordLadder</last-edited>
+=======
+          <last-edited>wordladder</last-edited>
+>>>>>>> fix bug
           <splitter-proportions>
             <option name="proportions">
               <list>
