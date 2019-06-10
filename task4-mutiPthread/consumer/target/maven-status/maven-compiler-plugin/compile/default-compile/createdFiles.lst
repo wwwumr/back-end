@@ -1,0 +1,5 @@
+com\client\mutithreads\MyConsumer.class
+com\client\mutithreads\MyProducer.class
+com\client\mutithreads\Repo.class
+com\client\mutithreads\App.class
+com\client\mutithreads\Container.class
